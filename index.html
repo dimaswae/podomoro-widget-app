@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Pixel Pomodoro</title>
+  <style>
+    body {
+      background: transparent; /* works with Electron transparent */
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Press Start 2P', cursive;
+      color: #4C7251; /* fern green from your palette */
+    }
+    .timer-box {
+      background: #F5E6CC; /* latte cream */
+      border: 4px solid #4C7251;
+      padding: 20px;
+      text-align: center;
+      image-rendering: pixelated;
+    }
+  </style>
+</head>
+<body>
+  <div class="timer-box">
+    <h1 id="timer">25:00</h1>
+    <button onclick="startTimer()">▶ Start</button>
+    <button onclick="pauseTimer()">⏸ Pause</button>
+    <button onclick="resetTimer()">⟳ Reset</button>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>

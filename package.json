@@ -1,0 +1,24 @@
+{
+  "name": "podomoro-widget-app",
+  "version": "1.0.0",
+  "description": "MAKING ABSOLUTE CINEMA AESTHETIC PODOMORO WIDGET USING SIMPLE STACK\r HTML + CSS + JavaScript → Electron.js → LocalStorage/JSON → Pixelated UI and Assets using Piskel",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimaswae/podomoro-widget-app.git"
+  },
+  "keywords": [],
+  "author": "Dimas Rizqia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimaswae/podomoro-widget-app/issues"
+  },
+  "homepage": "https://github.com/dimaswae/podomoro-widget-app#readme",
+  "devDependencies": {
+    "electron": "^38.0.0"
+  }
+}
